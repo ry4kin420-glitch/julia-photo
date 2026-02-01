@@ -129,11 +129,10 @@
             
             if (userName) {
                 greetingDiv.textContent = `Привет, ${userName}! Welcome to Julia Photo Gallery! 👋`;
-                greetingDiv.classList.add('show');
             } else {
                 greetingDiv.textContent = 'Привет бро! Welcome to Julia Photo Gallery! 👋';
-                greetingDiv.classList.add('show');
             }
+            greetingDiv.classList.add('show');
         }
 
         // Allow Enter key to trigger greeting
